@@ -6,7 +6,6 @@ import re
 import os
 import sys
 from asyncio.exceptions import CancelledError
-from config import *
 import logging
 import asyncio
 import time
@@ -35,6 +34,7 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.types import KeyboardButton, ReplyKeyboardMarkup
 import requests
 import random
+SedUb = TelegramClient(StringSession(session1), APP_ID, APP_HASH)
 a = requests.session()
 bot_username = '@eeobot'
 bot_username1 = '@A_MAN9300BOT'
